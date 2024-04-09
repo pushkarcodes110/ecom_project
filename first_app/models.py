@@ -15,6 +15,7 @@ from .manager import CustomUserManager
 from django.contrib.auth.models import PermissionsMixin
 
 from django.db.models import Q
+from django.conf import settings
 
 
 # class UserType(models.Model):
